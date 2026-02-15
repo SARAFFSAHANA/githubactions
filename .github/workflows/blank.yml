@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Run a one-line script
         run: |
-          echo building app $NAME
+          echo building app $NAME devops
   test:
     runs-on: ubuntu-latest
     needs: build
